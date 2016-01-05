@@ -7,5 +7,14 @@ Required libs:
 - https://github.com/adafruit/Adafruit_ILI9341
 - https://github.com/adafruit/Adafruit-GFX-Library
 
-# TODO
-- add schema
+# Connect
+
+See code
+
+VCC, LED - 5/3.3v (see display spec.)
+
+3.3v: CS, RESET, MOSI (SDO), SCK
+
+3.3v or compatible with 5v: MISO (SDI)
+
+TODO need check some pins - 3.3v or compatible with 5v (for economy of level shifters)
